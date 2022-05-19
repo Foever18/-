@@ -62,9 +62,9 @@ $(function() {
                 layer.msg('登录成功')
                 // 把数据存储到本地
                 localStorage.setItem("token", res.token);
-                // 跳转到主页
+                // 跳转到主页333
                 location.href = "/index.html";
-                33
+                
             }
         })
     })
