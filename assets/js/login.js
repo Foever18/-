@@ -63,7 +63,7 @@ $(function() {
                 // 把数据存储到本地
                 localStorage.setItem("token", res.token);
                 // 跳转到主页
-                // location.href = "/index.html";
+                location.href = "/index.html";
             }
         })
     })
