@@ -22,13 +22,13 @@ function getUserInfo(){
 // 渲染用户信息
 const randerAvatar = (user) =>{
     //获取用户名字
-    const name = user.nikname || user.username
+    const name = user.nickname || user.username
     console.dir(name);
     $('#welcome').html(`欢迎 ${name}`);
     // 渲染头象
     if(user.user_pic !== null){
         $('.layui-nav-img').attr('src', user.user_pic).show();
-        $('.text-avatar').hide
+        $('.text-avatar').hide()
 
     }else{
         $('.layui-nav-img').attr('src', user.user_pic).hide();
