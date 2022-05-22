@@ -100,8 +100,9 @@ $(function () {
 
   // ?删除功能
   $('tbody').on('click','.btn-delete',function(e) {
+    console.log(1);
     var id = $(this).attr('id');
-    let len =  $('.btn-del=ete').length;
+    let len =  $('.btn-delete').length;
     layer.confirm('确认删除?', { icon: 3, title: '提示' }, function (){
       // 判断当前页面是否还有数据
       
